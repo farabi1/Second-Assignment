@@ -1,3 +1,9 @@
+/* Import Font  */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Raleway:wght@500;700&display=swap');
+
+/* Import Font  */
+
 *{
     margin: 0;
     padding: 0;
@@ -8,6 +14,31 @@ body{
     margin: 0 auto;
 }
 
+/* Navbar design START  */
 .nav-title{
     margin: 50px 0;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+
 }
+/* Navbar design END  */
+
+/* Banner design START  */
+
+/* Banner design END  */
+
+/* Popular Collection design START  */
+
+/* Popular Collection design END  */
+
+/* See More design START  */
+
+/* See More design END  */
+
+/* Extra Part design START  */
+
+/* Extra Part design END  */
+
+/* Footer design START  */
+
+/* Footer design END  */

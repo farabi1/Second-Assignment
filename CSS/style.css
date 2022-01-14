@@ -10,35 +10,59 @@
     box-sizing: border-box;
 }
 body{
+    /* max-width: 1200px; */
     width: 80%;
     margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* Navbar design START  */
 .nav-title{
     margin: 50px 0;
     font-size: 24px;
-    font-family: 'Poppins', sans-serif;
+    
 
 }
-/* Navbar design END  */
+/* ---Navbar design END---  */
 
 /* Banner design START  */
 
-/* Banner design END  */
+.banner{
+    display: flex;
+}
+.banner-right{
+    flex: 1;
+    display: flex;
+}
+.banner-left{
+    flex: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*--- Banner design END --- */
 
 /* Popular Collection design START  */
 
-/* Popular Collection design END  */
+/*--- Popular Collection design END---  */
 
 /* See More design START  */
 
-/* See More design END  */
+/*--- See More design END ---*/
 
-/* Extra Part design START  */
+/* Extra Part design START */
 
-/* Extra Part design END  */
+/*--- Extra Part design END---  */
 
 /* Footer design START  */
 
-/* Footer design END  */
+/*--- Footer design END --- */

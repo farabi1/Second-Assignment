@@ -138,21 +138,33 @@ body{
     color: gold;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 /*--- Popular Collection design END---  */
 
 /* See More design START  */
+.see-more{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+.see-more-button{
+    padding: 10px 0;
+    background-color: white;
+    color: #E02C6D;
+    border: none;
+    font-size: 20px;
+    
+}
+.fa-arrow-right.see-more{
+    color: #E02C6D;
+}
+
+
+
+
+
+
 
 /*--- See More design END ---*/
 

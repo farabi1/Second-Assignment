@@ -153,6 +153,7 @@ body{
 .see-more-setup{
     width: 80%;
     margin: 0 auto;
+    margin-bottom: 20px;
 }
 .see-more{
     display: flex;
@@ -176,6 +177,29 @@ body{
 /*--- See More design END ---*/
 
 /* Extra Part design START */
+
+.extra-map{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+    font-size: 25px;
+}
+.map-details{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.map-view{
+    flex: 1;
+}
+.map-locate{
+    color: #E02C6D;
+    
+}
+
+
 
 /*--- Extra Part design END---  */
 

@@ -102,7 +102,7 @@ body{
 .popular-collection-title h2{
     color: #3A3A3A;
     font-weight: 600;
-    font-size: 28px;
+    font-size: 40px;
     text-align: center;
     margin-bottom: 60px;
 }
@@ -111,10 +111,31 @@ body{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-row-gap: 40px;
+    justify-items: center;
+    
+    padding: 25px;
+    border-radius: 10px;
 }
 
 .card{
-    
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 15px #AAAAAA;
+}
+.card-details-rating{
+    display: flex;
+    justify-content: start;
+    align-items: baseline;
+}
+
+.card-details-rating p{
+    margin-left: 10px;
+}
+
+
+.fa-star{
+    color: gold;
 }
 
 

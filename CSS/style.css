@@ -117,6 +117,19 @@ body{
 
 /*--- Banner design END --- */
 
+/* LOGO design START  */
+.logo{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 50px 0;
+    border: 1px solid gray;
+}
+
+/*--- LOGO design END --- */
+
+
 /* Popular Collection design START  */
 
 .popular-collection{
@@ -272,6 +285,19 @@ body{
         height: 500px;
         order: 2;
     }
+   
+.logo{
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 50px 0;
+    border: 1px solid gray;
+}
+.logo img{
+    width: 25px;
+}
+
+
 
     .popular-collection{
         display: grid;
@@ -328,6 +354,16 @@ body{
         flex: 1;
         height: 500px;
         order: 2;
+    }
+    .logo{
+        position: relative;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        padding: 50px 0;
+        border: 1px solid gray;
+    }
+    .logo img{
+        width: 50px;
     }
 
     .popular-collection{

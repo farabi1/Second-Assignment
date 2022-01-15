@@ -235,12 +235,41 @@ body{
     font-size: 25px;
     margin: 10px;
 }
-
-
-
-
-
-
-
-
 /*--- Footer design END --- */
+
+
+
+/* MOBILE RESPONSIVE START */
+
+@media only screen and (max-width:688px){
+    .navbar{
+        width: 100%;
+        text-align: center;
+    }
+    .banner{
+        width: 100%;
+        flex-direction: column;
+    }
+    .banner-right{
+        flex: 1;
+        justify-content: center;
+        align-items: center;
+        order: 1;
+        margin-bottom: 36px;
+    }
+    .banner-left{
+        flex: 1;
+        height: 500px;
+        order: 2;
+    }
+
+
+    .popular-collection,.see-more-setup,.extra-map,.footer{
+        display: none;
+    }
+}
+
+
+
+
+/* MOBILE RESPONSIVE END */

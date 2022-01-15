@@ -285,17 +285,19 @@ body{
         height: 500px;
         order: 2;
     }
+    
+
    
-.logo{
+    .logo{
     position: relative;
     margin-top: 100px;
     margin-bottom: 100px;
     padding: 50px 0;
     border: 1px solid gray;
-}
-.logo img{
+    }
+    .logo img{
     width: 25px;
-}
+    }
 
 
 

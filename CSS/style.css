@@ -132,12 +132,10 @@ body{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-row-gap: 40px;
-    justify-items: center;
-    
+    justify-items: center;    
     padding: 25px;
     border-radius: 10px;
 }
-
 .card{
     background-color: whitesmoke;
     margin: 20px;
@@ -145,10 +143,23 @@ body{
     border-radius: 10px;
     box-shadow: 5px 10px 15px #AAAAAA;
 }
+.card-details h3{
+    font-size: 28px;
+}
+.card-details-price{
+    font-size: 24px;
+    padding: 5px 0;
+}
+.card-details-text{
+    font-size: 14px;
+    color: #787885;
+}
+
 .card-details-rating{
     display: flex;
     justify-content: start;
     align-items: baseline;
+    margin-bottom: 5px;
 }
 
 .card-details-rating p{
@@ -345,8 +356,5 @@ body{
     }
    
 }
-
-
-
 
 /* TAB/iPad RESPONSIVE END */

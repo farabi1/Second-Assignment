@@ -262,23 +262,30 @@ body{
     }
 
     .popular-collection{
+        display: grid;
+        margin: 0 auto;
         
     }
     .popular-collection-title{
         text-align: center;
     }
     .popular-collection-cards{
-        display: grid;
         grid-template-columns: repeat(1,1fr);
         align-items: center;
     }
-    .card{
-        
-        
+    .see-more-setup{
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
     }
-
-    .see-more-setup,.extra-map,.footer{
-        display: none;
+    .extra-map{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+    .map-text{
+        align-items: center;
     }
 }
 

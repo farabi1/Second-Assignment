@@ -33,7 +33,6 @@ body{
 .banner{
     display: flex;
     width: 80%;
-    height: 50vh;
     margin: 0 auto;
     margin-bottom: 80px;
 }
@@ -44,6 +43,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 20px;
 }
 
 .banner-left{
@@ -58,7 +58,6 @@ body{
 .banner-left img{
     height: 100%;
     width: 100%;
-    /* object-fit: cover; */
 }
 .main-image{
     position: absolute;
@@ -66,11 +65,10 @@ body{
     left: 0;
 }
 .transition-image{
-    position: absolute;
     top: 0;
     left: 0;
     opacity: 0;
-    transition: opacity 0.6s ease;
+    transition: opacity 0.6s ease-out;
 }
 .transition-image:hover{
     opacity: 1;
@@ -247,8 +245,8 @@ body{
         text-align: center;
     }
     .banner{
-        width: 100%;
-        flex-direction: column;
+      
+        flex-direction: column-reverse;
     }
     .banner-right{
         flex: 1;

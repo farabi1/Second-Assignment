@@ -261,8 +261,23 @@ body{
         order: 2;
     }
 
+    .popular-collection{
+        
+    }
+    .popular-collection-title{
+        text-align: center;
+    }
+    .popular-collection-cards{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+    }
+    .card{
+        
+        
+    }
 
-    .popular-collection,.see-more-setup,.extra-map,.footer{
+    .see-more-setup,.extra-map,.footer{
         display: none;
     }
 }

@@ -9,21 +9,21 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    /* max-width: 1200px; */
-    
+body{    
     font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
 }
 
 /* Navbar design START  */
 .navbar{
-    width: 80%;
-    margin: 0 auto;
+    
 }
 .nav-title{
     margin: 50px 0;
-    font-size: 24px;
-    
+    font-size: 24px;    
 
 }
 /* ---Navbar design END---  */
@@ -32,8 +32,6 @@ body{
 
 .banner{
     display: flex;
-    width: 80%;
-    margin: 0 auto;
     margin-bottom: 80px;
 }
 
@@ -121,9 +119,6 @@ body{
 
 .popular-collection{
     margin-top: 40px;
-    width: 80%;
-    margin: 0 auto;
-    
 }
 .popular-collection-title h2{
     color: #3A3A3A;
@@ -169,8 +164,6 @@ body{
 
 /* See More design START  */
 .see-more-setup{
-    width: 80%;
-    margin: 0 auto;
     margin-bottom: 20px;
 }
 .see-more{
@@ -198,8 +191,6 @@ body{
 
 .extra-map{
     display: flex;
-    width: 80%;
-    margin: 0 auto;
     margin-top: 30px;
     font-size: 25px;
 }
@@ -244,9 +235,15 @@ body{
         width: 100%;
         text-align: center;
     }
+    .banner{  
+        display: flex;
+        flex-direction: column;
+    }
     .banner{
-      
-        flex-direction: column-reverse;
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 80px;
+        
     }
     .banner-right{
         flex: 1;
@@ -293,7 +290,11 @@ body{
 
 /* TAB/iPad RESPONSIVE START */
 
+@media only screen and (max-width: 992px) and(min-width:689) {
+    
 
+    
+}
 
 
 
@@ -301,3 +302,4 @@ body{
 
 
 /* TAB/iPad RESPONSIVE END */
+/* @media only screen and (max-width: 600px) and (min-width: 400px) */

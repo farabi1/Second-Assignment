@@ -33,6 +33,7 @@ body{
 .banner{
     display: flex;
     width: 80%;
+    height: 50vh;
     margin: 0 auto;
     margin-bottom: 80px;
 }
@@ -50,10 +51,29 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 2px solid #E02C6D;
+    position: relative;
+    
 }
-
-.banner-left img {
-    border: 20px solid #E02C6D;
+.banner-left img{
+    height: 100%;
+    width: 100%;
+    /* object-fit: cover; */
+}
+.main-image{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.transition-image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.6s ease;
+}
+.transition-image:hover{
+    opacity: 1;
 }
 
 .banner-right h1{

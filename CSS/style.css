@@ -77,10 +77,6 @@ body{
 }
 
 
-/* .transition-image:hover{
-    opacity: 1;
-} */
-
 .banner-right h1{
     font-size: 52px;
     font-weight: bold;
@@ -228,8 +224,6 @@ body{
     
 }
 
-
-
 /*--- Extra Part design END---  */
 
 /* Footer design START  */
@@ -245,6 +239,10 @@ body{
     margin: 10px;
 }
 /*--- Footer design END --- */
+
+/* ----------------------------
+----------------------------
+---------------------------- */
 
 
 
